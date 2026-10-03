@@ -24,7 +24,7 @@ jobs:
 
       - name: Apply changes
         run: |
-          curl -LSs https://gist.github.com/TheSillyOk/8b74b5f2c6b1da211ef93c3176d0e235/raw/xxksu.patch > xxksu.patch
+          curl -LSs https://gist.github.com/malkist01/8b74b5f2c6b1da211ef93c3176d0e235/raw/xxksu.patch > xxksu.patch
           patch -p1 < xxksu.patch
 
           git config --global user.name "github-actions[bot]"
